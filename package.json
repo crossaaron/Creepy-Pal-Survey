@@ -1,0 +1,25 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "basic match maker app for basic server utilization principles",
+  "main": "htmlRoutes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crossaaron/friendFinder.git"
+  },
+  "author": "aaron cross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crossaaron/friendFinder/issues"
+  },
+  "homepage": "https://github.com/crossaaron/friendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
