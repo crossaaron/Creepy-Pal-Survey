@@ -12,3 +12,4 @@ app.listen(port, () => {
 
 app.use('/', htmlRoutes);
 app.use('/survey', htmlRoutes);
+app.use('/data/friends.js', htmlRoutes);
