@@ -10,10 +10,9 @@ $(surveySubmit).on("click", function () {
         url: $('#photoInput').val(),
         surveyAnswers: answerArr
     };
-    $.post("/api/new", newUser)
+    $.post("/api/newFriends", newUser)
         .then(function (data) {
-            console.log(data);
-            alert("Adding User");
+            console.log(userArr);
         });
 });
 
